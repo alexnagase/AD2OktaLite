@@ -14,6 +14,7 @@ This script assists with the migration of Active Directory Mastered Okta group t
 ## Parameters
 **-u, --url**
 company.okta.com (replace company with your Okta Tenant URL)
+
 **-t, --token**
 Use admin token generated from Okta Admin Console
 
