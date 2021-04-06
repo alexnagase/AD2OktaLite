@@ -7,7 +7,13 @@ This script assists with the migration of Active Directory Mastered Okta group t
 
 ## Instructions
 1. Identify the Active Directory Mastered Okta group you want to transfer.
-2. Run the Python File with your Okta environment info as arguments. 
+2. Run the Python File with your Okta environment info as parameters. 
 3. Follow steps from the program
 4. Enable the generated rule in the Okta admin console. Optionally disable/remove rule when completed. 
+
+## Parameters
+**-u, --url**
+company.okta.com (replace company with your Okta Tenant URL)
+**-t, --token**
+Use admin token generated from Okta Admin Console
 
